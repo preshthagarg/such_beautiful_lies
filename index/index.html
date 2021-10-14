@@ -1,7 +1,12 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <title>Such Beautiful Lies</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
         <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/dancing" type="text/css"/>
         <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/rebecca" type="text/css"/>
         <link rel = 'stylesheet' href = '../stylesheet.css'>
@@ -10,18 +15,21 @@
         <div id = 'header'>
             <h1 id = 'title'> Such Beautiful Lies </h1>
         </div>
-        <div id = 'navbar'>
+        <div class = 'nav' id = 'navbar'>
             <ul>
                 <li>Home</li>
                 <li>author</li>
                 <li>Vision</li>
             </ul>
         </div>
-        <div id = 'holding-area'></div>
+        <div id = 'holding-area'>
+            <table>
+                <tr>
+                    <td>This place will hold some blog post blurbs</td>
+                </tr>
+            </table>
+        </div>
         <!-- TODOS:
-        1) heading Such Beautiful Lies in curly pretty coil font
-        2) Title section
-        -- colours pink, gold, stormy grey 
         3) posts as story cards
         3) sidebar in darkgold/lightgold - hidden when mouse beyond a certain percent of screen
         4) All navigation in sidebar
@@ -29,7 +37,12 @@
         6) list of other meta pages - [ 'About the author + contact', 'Vision',] 
         7) how to make dynamic content?
      -->
-     <footer> <small>&copy; Copyright 2021, Such Beautiful Lies, Preshtha Garg. All rights reserved.</small> </footer>
+        <footer class="blog-footer">
+            <small>
+                &copy; Copyright 2021, Such Beautiful Lies, Preshtha Garg. All rights reserved.
+
+            </small>
+        </footer>
     </body>
     
 </html>

@@ -1,0 +1,29 @@
+* {
+    box-sizing:border-box;
+}
+.header {
+    height: 30%;
+    width:90%;
+    margin:auto;
+    background-image:url('./index/storm-image-header.jpeg');
+    background-repeat:no repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    align-self: center;
+    padding: 2px;
+
+}
+
+body {
+    font-size: 100%;
+    background-color: papayawhip;
+}
+
+#title {
+    font-family:"DancingScriptRegular", 'GreatVibesRegular', cursive;
+    font-style: italic;
+    font-size: 7em;
+    text-align: center;
+    color: rgb(212, 170, 50);
+}
+
